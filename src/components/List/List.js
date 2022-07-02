@@ -31,7 +31,7 @@ const List = () => {
 			<span className="listTitle">Continue Watching</span>
 			<div className="wrapper">
 				<ArrowBackIosNewOutlinedIcon className="sliderArrow left" onClick={() => handleClick("left")}
-					style={{ display: isMoved ? 'block' : 'none' }}
+					style={{ display: !isMoved && 'none' }}
 				/>
 				<div className="container" ref={listRef}>
 					<ListItem />
