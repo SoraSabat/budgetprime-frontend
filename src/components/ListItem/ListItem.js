@@ -1,9 +1,15 @@
 import './listItem.scss'
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 
 const ListItem = () => {
 	return (
 		<div className="listItem">
-			listitem
+			<img src="https://i.imgur.com/rdOBjKf.jpg" alt="listItem" />
+			<div className="itemInfo">
+				<div className="icons">
+					<PlayArrowIcon />
+				</div>
+			</div>
 		</div>
 	)
 }
